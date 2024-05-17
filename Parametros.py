@@ -21,6 +21,6 @@ elif 25 <= imc <= 29.9:
 elif 30 <= imc <= 34.9:
     print('Cuidado, {}! Você está em \033[31mobesidade grau I\033[m ! Procure um nutricionsta e um educador físico!'.format(nome))
 elif 35 <= imc <= 40:
-    print('Cuidado, {}! Voce está em \033[31mobesidade grau II!\033[m Procure um nutricionista e ducador físico!'.format(nome))
+    print('Cuidado, {}! Voce está em \033[31mobesidade grau II!\033[m Procure um nutricionista e educador físico!'.format(nome))
 else:
     print('Você está em \033[31mobesidade grau III\033[m, {}! Muito cuidado! Procure um clínico geral, nutricionsta e educador físico urgente!'.format(nome))
